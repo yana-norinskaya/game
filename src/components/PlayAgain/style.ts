@@ -1,6 +1,7 @@
-import styled, {css} from "styled-components";
+import styled, { css } from "styled-components";
 
-export const Button = styled.div(({theme}) => ({
+export const Button = styled.div(
+  ({ theme }) => ({
     width: "200px",
     background: theme.colors.white,
     padding: theme.padding.m,
@@ -9,9 +10,11 @@ export const Button = styled.div(({theme}) => ({
     fontSize: theme.fontSizes.m,
     borderRadius: theme.borders.s,
     cursor: "pointer",
-    transition: "all 300ms ease"
-}), css`
-    &:hover{
+    transition: "all 300ms ease",
+  }),
+  css`
+    &:hover {
       transform: scale(1.1);
     }
-`)
+  `
+);

@@ -1,15 +1,15 @@
 import styled from "styled-components";
 
 export enum FlexValue {
-    stretch = "stretch",
-    column = "column",
-    between = "space-between",
+  stretch = "stretch",
+  column = "column",
+  between = "space-between",
 }
 interface IFlex {
-    cursor?: string;
-    direction?: FlexValue;
-    align?: FlexValue;
-    justify?: FlexValue;
+  cursor?: string;
+  direction?: FlexValue;
+  align?: FlexValue;
+  justify?: FlexValue;
 }
 export const Flex = styled.div<IFlex>`
   display: flex;
