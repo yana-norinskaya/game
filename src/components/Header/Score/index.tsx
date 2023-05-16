@@ -15,7 +15,7 @@ export const Score: FC = () => {
         Score
       </TextStyle>
       <TextStyle size={FontSize.xl} color={Colors.dark}>
-        {score} : {computerScore}
+        {score + " "} : {computerScore}
       </TextStyle>
     </Box>
   );
