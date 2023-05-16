@@ -23,9 +23,9 @@ export const Start: FC = () => {
   return (
     <Grid
       as={motion.div}
-      initial={{ y: -300, opacity: 0 }}
-      animate={{ y: 0, opacity: 1 }}
-      transition={{ duration: 1 }}
+      initial={{ scale: 0, opacity: 0 }}
+      animate={{ scale: 1, opacity: 1 }}
+      transition={{ duration: 2 }}
       exit={{ y: 300, opacity: 0 }}
     >
       <Width>

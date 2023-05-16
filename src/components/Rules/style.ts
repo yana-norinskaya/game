@@ -12,7 +12,7 @@ export const Button = styled.div(
     cursor: "pointer",
     display: "flex",
     alignSelf: "end",
-    justifyItems: "center",
+    justifyContent: "center",
     transition: "all 300ms ease",
   }),
   css`

@@ -8,14 +8,16 @@ import { useFindResult } from "../../../hooks/useFindResult";
 
 export const Score: FC = () => {
   const { score, computerScore } = useAppSelector((state) => state.game);
+
   useFindResult();
+
   return (
     <Box>
       <TextStyle size={FontSize.m} color={Colors.blue}>
         Score
       </TextStyle>
       <TextStyle size={FontSize.xl} color={Colors.dark}>
-        {score + " "} : {computerScore}
+        {score} : {computerScore}
       </TextStyle>
     </Box>
   );
