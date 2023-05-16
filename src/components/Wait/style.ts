@@ -6,10 +6,3 @@ export const Wrap = styled.div(({ theme }) => ({
   alignItems: "center",
   marginTop: theme.padding.xl,
 }));
-
-export const Skeleton = styled.div(({ theme }) => ({
-  width: "250px",
-  height: "250px",
-  background: theme.colors.skeleton,
-  borderRadius: "50%",
-}));
